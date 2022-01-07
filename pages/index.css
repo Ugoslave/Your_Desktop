@@ -287,3 +287,117 @@
   text-transform: uppercase;
   letter-spacing: 0.02em;
 }
+
+
+
+
+
+
+.elements {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.element {
+  margin: 0;
+  margin-right: 70px;
+  padding-top: 43px;
+  width: 427px;
+  min-height: 643px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: drop-shadow(0px 0px 20px rgba(212, 60, 56, 0.5));
+  background: #0C1117;
+}
+
+.element:last-child {
+  margin-right: 0;
+}
+
+.element:first-child {
+  padding-top: 30px;
+}
+
+.element__active {
+  border: 2px solid #D43C38;
+}
+
+.element__image {
+  background: radial-gradient(51.84% 58.28% at 42.63% 71.6%, #3A3C59 0%, #0C1117 100%);
+  border-radius: 27.2621px;
+}
+
+.element__title {
+  margin: 0;
+  padding-top: 20px;
+  padding-right: 15px;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 25.8788px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 320px;
+}
+
+.element__title_position_second {
+  padding-top: 45px;
+}
+
+.element__title_position_third {
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.element__subtitle {
+  margin: 0;
+  padding-top: 8px;
+  padding-right: 25px;
+  padding-bottom: 32px;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 371px;
+}
+
+.element__subtitle_position_second {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.element__subtitle_position_third {
+  padding-top: 22px;
+  padding-left: 40px;
+  padding-bottom: 45px;
+}
+
+.element__button {
+  margin: 0;
+  background-color: #0C1117;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 221px;
+  height: 68px;
+  border: 2px solid #D43C38;
+  outline: none;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  filter: drop-shadow(0px 0px 4px #D43C38);
+  align-self: flex-start;
+  margin-left: 90px;
+}
+
+.element__button_position_third {
+  margin-left: 112px;
+}
