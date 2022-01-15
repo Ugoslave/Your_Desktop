@@ -1,0 +1,16 @@
+.header__phone-box {
+  margin: 0;
+  display: flex;
+}
+
+@media screen and (min-width: 375px) and (max-width: 1617px) {
+  .header__phone-box {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1618px) and (max-width: 1920px) {
+  .header__phone-box {
+    padding-right: 50px;
+  }
+}

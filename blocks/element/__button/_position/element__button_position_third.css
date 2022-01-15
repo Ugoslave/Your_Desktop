@@ -1,0 +1,9 @@
+.element__button_position_third {
+  margin-left: 112px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .element__button_position_third {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,16 @@
+.header__phone {
+  margin: 0;
+  padding-top: 60px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1920px) {
+  .header__phone {
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 60px;
+  }
+}

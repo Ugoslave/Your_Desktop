@@ -1,0 +1,25 @@
+.pc-types__page {
+  padding-right: 65px;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fff;
+  transition: opacity 1s ease;
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1920px) {
+  .pc-types__page {
+    padding-right: 35px;
+  }
+}
+
+.pc-types__page:last-child {
+  padding-right: 0;
+}
+
+.pc-types__page:hover {
+  cursor: pointer;
+  opacity: .7;
+  animation: scale 1s forwards;
+}

@@ -1,0 +1,21 @@
+.header__profile-icon {
+  width: 64px;
+  height: 64px;
+  padding: 43px 19px 0 56px;
+  transition: opacity 1s ease;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .header__profile-icon {
+    order: 0;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+  }
+}
+
+.header__profile-icon:hover {
+  cursor: pointer;
+  opacity: .7;
+  animation: scale 1s forwards;
+}

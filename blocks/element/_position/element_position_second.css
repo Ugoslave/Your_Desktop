@@ -1,0 +1,11 @@
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+  .element_position_second {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1920px) {
+  .element_position_second {
+    height: 590px;
+  }
+}

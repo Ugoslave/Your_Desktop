@@ -3,9 +3,9 @@ const secondCard = document.querySelector('.element_position_second'); // выб
 const thirdCard = document.querySelector('.element_position_third'); // выбираем в проекте класс третьей карточки;
 
 function handleCardChoice(card, activeCard, anotherCard) { // объявляем функцию для обработки нажатия на карточку;
-  card.classList.add('element__active');
-  activeCard.classList.remove('element__active');
-  anotherCard.classList.remove('element__active');
+  card.classList.add('element_active');
+  activeCard.classList.remove('element_active');
+  anotherCard.classList.remove('element_active');
 }
 
 firstCard.addEventListener('click', () => handleCardChoice(firstCard, secondCard, thirdCard)); // подключаем "слушатели";

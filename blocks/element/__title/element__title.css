@@ -1,0 +1,35 @@
+.element__title {
+  margin: 0;
+  padding-top: 20px;
+  padding-right: 15px;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 25.8788px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 320px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .element__title {
+    width: 231px;
+    min-height: 30px;
+    font-size: 16px;
+    line-height: 17px;
+    padding-top: 26px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .element__title {
+    width: 231px;
+    min-height: 30px;
+    font-size: 16px;
+    line-height: 17px;
+    padding-top: 26px;
+    padding-right: 0;
+  }
+}

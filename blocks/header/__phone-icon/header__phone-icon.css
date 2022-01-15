@@ -1,0 +1,14 @@
+.header__phone-icon {
+  width: 32px;
+  height: 32px;
+  padding-right: 16px;
+  padding-top: 57px;
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1920px) {
+  .header__phone-icon {
+    width: 18px;
+    height: 18px;
+    padding-top: 62px;
+  }
+}

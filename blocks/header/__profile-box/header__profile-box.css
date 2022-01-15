@@ -1,0 +1,7 @@
+.header__profile-box {
+  margin: 0;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

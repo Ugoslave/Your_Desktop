@@ -1,0 +1,17 @@
+.nav-box__item {
+  padding-right: 32px;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-box__item:last-child {
+  padding-right: 0;
+}
+
+.nav-box__item:hover {
+  cursor: pointer;
+  animation: scale 1s forwards;
+}

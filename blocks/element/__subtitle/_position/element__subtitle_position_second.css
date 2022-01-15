@@ -1,0 +1,11 @@
+.element__subtitle_position_second {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .element__subtitle_position_second {
+    padding-bottom: 10px;
+    padding-top: 0;
+  }
+}

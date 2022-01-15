@@ -1,0 +1,11 @@
+.header__location {
+  margin: 0;
+  padding-right: 56px;
+  display: flex;
+}
+
+@media screen and (min-width: 375px) and (max-width: 2000px) {
+  .header__location {
+    display: none;
+  }
+}

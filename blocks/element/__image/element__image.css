@@ -1,0 +1,20 @@
+.element__image {
+  background: radial-gradient(51.84% 58.28% at 42.63% 71.6%, #3A3C59 0%, #0C1117 100%);
+  border-radius: 27.2621px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .element__image {
+    width: 186px;
+    height: 180px;
+    border-radius: 16.0633px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .element__image {
+    width: 186px;
+    height: 180px;
+    border-radius: 16.0633px;
+  }
+}

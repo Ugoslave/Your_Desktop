@@ -1,0 +1,26 @@
+.basket {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 64px 0 72px 160px;
+  display: flex;
+}
+
+@media screen and (min-width: 375px) and (max-width: 380px) {
+  .basket {
+    padding: 10px 16px 40px;
+  }
+}
+
+@media screen and (min-width: 381px) and (max-width: 768px) {
+  .basket {
+    justify-content: center;
+    padding: 15px 20px 50px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .basket {
+    justify-content: center;
+    padding: 15px 0 70px;
+  }
+}

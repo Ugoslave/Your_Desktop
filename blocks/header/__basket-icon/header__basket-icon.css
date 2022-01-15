@@ -1,0 +1,12 @@
+.header__basket-icon {
+  width: 40px;
+  height: 40px;
+  padding-right: 19px;
+  transition: opacity 1s ease;
+}
+
+.header__basket-icon:hover {
+  cursor: pointer;
+  opacity: .7;
+  animation: scale 1s forwards;
+}

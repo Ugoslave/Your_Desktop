@@ -1,0 +1,27 @@
+.elements {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .elements {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .elements {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1920px) {
+  .elements {
+    flex-wrap: wrap;
+  }
+}

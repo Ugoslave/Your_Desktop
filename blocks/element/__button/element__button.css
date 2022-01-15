@@ -1,0 +1,43 @@
+.element__button {
+  margin: 0;
+  background-color: #0C1117;
+  color: #fff;
+  padding: 0;
+  width: 221px;
+  height: 68px;
+  border: 2px solid #D43C38;
+  outline: none;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  filter: drop-shadow(0px 0px 4px #D43C38);
+  align-self: flex-start;
+  margin-left: 90px;
+}
+
+.element__button:hover {
+  cursor: pointer;
+  animation: scale 1s forwards;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .element__button {
+    margin-left: 60px;
+    width: 130px;
+    height: 40px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .element__button {
+    margin-left: 0;
+    width: 130px;
+    height: 40px;
+    font-size: 10px;
+    line-height: 13px;
+    align-self: center;
+  }
+}

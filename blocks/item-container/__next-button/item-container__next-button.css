@@ -1,0 +1,16 @@
+.item-container__next-button {
+  display: none;
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .item-container__next-button {
+    display: flex;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .item-container__next-button {
+    display: flex;
+  }
+}

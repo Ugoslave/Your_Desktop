@@ -1,0 +1,12 @@
+@keyframes scale {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(107%);
+  }
+}
+
+.app {
+  background-color: #020405;
+}

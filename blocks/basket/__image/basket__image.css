@@ -1,0 +1,26 @@
+.basket__image {
+  width: 66px;
+  height: 66px;
+  transition: opacity 1s ease;
+}
+
+.basket__image:hover {
+  cursor: pointer;
+  opacity: .7;
+  animation: scale 1s forwards;
+}
+
+@media screen and (min-width: 375px) and (max-width: 380px) {
+  .basket__image {
+    width: 43px;
+    height: 43px;
+  }
+}
+
+@media screen and (min-width: 381px) and (max-width: 768px) {
+  .basket__image {
+    width: 43px;
+    height: 43px;
+    padding-left: 25px;
+  }
+}
